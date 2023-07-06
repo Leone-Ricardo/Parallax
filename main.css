@@ -1,0 +1,65 @@
+body,html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo{
+    color: #777;
+    background: justify;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: #111;
+    text-align: center;
+}
+
+/*------- Efeito Parallax -------*/
+
+.caixa1, .caixa2 {
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-position: no-repeat;
+    background-repeat: cover;
+    background-attachment: center;
+    background-size: fixed;
+}
+
+.conteudo-titulo{
+    position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo .span-titulo{
+    color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+} 
+
+
+.caixa1{
+    background-image: url(imagens/imagem1.jpg);
+
+}
+
+.caixa2{
+    background-image: url(imagens/imagem2.jpg);
+}
+
+
+
+
+
+
+
+
